@@ -20,8 +20,15 @@ export const metadata: Metadata = {
     "codex-preview": "development",
   },
   icons: {
-    icon: "/cognixs-mark.png",
-    shortcut: "/cognixs-mark.png",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      {
+        url: "/cognixs-favicon.png",
+        type: "image/png",
+        sizes: "512x512",
+      },
+    ],
+    shortcut: "/favicon.ico",
   },
 };
 
